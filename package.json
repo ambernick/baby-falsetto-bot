@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/bot.js",
-    "dev": "nodemon ./src/bot.js"
+    "dev": "nodemon ./src/bot.js",
+    "handleCommands": "node ./src/deploy-commands.js"
   },
   "repository": {
     "type": "git",
